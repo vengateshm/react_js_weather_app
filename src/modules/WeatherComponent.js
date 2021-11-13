@@ -87,11 +87,11 @@ const WeatherInfoComponent = (props) => {
 
 
 export const WeatherInfoIcons = {
-    sunset: "/icons/temp.svg",
-    sunrise: "/icons/temp.svg",
-    humidity: "/icons/humidity.svg",
-    wind: "/icons/wind.svg",
-    pressure: "/icons/pressure.svg"
+    sunset: "/react_js_weather_app/icons/temp.svg",
+    sunrise: "/react_js_weather_app/icons/temp.svg",
+    humidity: "/react_js_weather_app/icons/humidity.svg",
+    wind: "/react_js_weather_app/icons/wind.svg",
+    pressure: "/react_js_weather_app/icons/pressure.svg"
 };
 
 const WeatherComponent = (props) => {

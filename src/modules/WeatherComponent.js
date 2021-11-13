@@ -105,7 +105,7 @@ const WeatherComponent = (props) => {
     return (<>
         <WeatherCondition>
             <Condition>
-                <span>{`${Math.floor(weather?.main?.temp - 273)}C`}</span>
+                <span>{`${Math.floor(weather?.main?.temp - 273)}°C`}</span>
                 {` | ${weather?.weather[0].description}`}
             </Condition>
             <WeatherLogo src={`${ICON_URL}/${weather?.weather[0].icon}.png`} />
